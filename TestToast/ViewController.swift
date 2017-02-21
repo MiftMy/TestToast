@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tapMe(_ sender: AnyObject) {
+        XMToastView.showInfo(info: "你点我了。", bgColor: UIColor.green, inView: self.view, vertical: 0.8)
+    }
 
 }
 

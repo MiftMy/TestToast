@@ -14,6 +14,7 @@
 		2C5A04291D90DEC700FD430E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5A04271D90DEC700FD430E /* LaunchScreen.storyboard */; };
 		2C5A04341D90DEC700FD430E /* TestToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A04331D90DEC700FD430E /* TestToastTests.swift */; };
 		2C5A043F1D90DEC700FD430E /* TestToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A043E1D90DEC700FD430E /* TestToastUITests.swift */; };
+		2C5A044D1D90DEF800FD430E /* XMToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A044C1D90DEF800FD430E /* XMToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2C5A043A1D90DEC700FD430E /* TestToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5A043E1D90DEC700FD430E /* TestToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestToastUITests.swift; sourceTree = "<group>"; };
 		2C5A04401D90DEC700FD430E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5A044C1D90DEF800FD430E /* XMToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2C5A041E1D90DEC700FD430E /* AppDelegate.swift */,
 				2C5A04201D90DEC700FD430E /* ViewController.swift */,
+				2C5A044C1D90DEF800FD430E /* XMToastView.swift */,
 				2C5A04221D90DEC700FD430E /* Main.storyboard */,
 				2C5A04251D90DEC700FD430E /* Assets.xcassets */,
 				2C5A04271D90DEC700FD430E /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					2C5A041A1D90DEC700FD430E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LNXRPG37BW;
 						ProvisioningStyle = Automatic;
 					};
 					2C5A042E1D90DEC700FD430E = {
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5A044D1D90DEF800FD430E /* XMToastView.swift in Sources */,
 				2C5A04211D90DEC700FD430E /* ViewController.swift in Sources */,
 				2C5A041F1D90DEC700FD430E /* AppDelegate.swift in Sources */,
 			);
@@ -412,11 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNXRPG37BW;
 				INFOPLIST_FILE = TestToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.areox.mifit.TestToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,11 +432,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LNXRPG37BW;
 				INFOPLIST_FILE = TestToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.areox.mifit.TestToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
